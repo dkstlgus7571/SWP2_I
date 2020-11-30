@@ -17,8 +17,3 @@ def for_eli(mat):
         newmat.append(mat[r])
     return newmat
 
-mat = [[1,1,1,4],
-       [2,1,-3,1],
-       [-1,-2,1,-4]]
-
-print(for_eli(mat))
